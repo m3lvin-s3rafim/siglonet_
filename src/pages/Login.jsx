@@ -20,7 +20,7 @@ const Login = () => {
       </header>
 
       <div className="card-content">
-        <div className="card">
+        <div className="card-login">
           <div className="card-header">
             <h2 className="text-center">Login</h2>
             <p className="description text-center">

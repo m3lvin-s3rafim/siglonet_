@@ -19,22 +19,20 @@
   align-items: center;
 }
 
+.position-fixed {
+  position: fixed;
+}
+
 .header h3 {
   color: #87898d;
 }
 
-.card {
+.card-login {
   width: 448px;
   height: 400px;
   background-color: #fff;
   border-radius: 4px;
   padding: 40px 64px;
-}
-
-.card-header {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .description {
@@ -58,7 +56,7 @@
 }
 
 @media (max-width: 700px) {
-  .card {
+  .card-login {
     padding: 40px 30px;
     margin: 0px 5px;
   }

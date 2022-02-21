@@ -25,8 +25,36 @@ button {
   height: 40px;
   padding: 0 6px;
   background-color: rgba(235, 236, 242, 0.15);
-  border-radius: 8px;
+  border-radius: 4px;
   border: 1px solid #e2e0e6;
+}
+
+select {
+  height: 30px;
+  padding: 0 30px;
+  border-radius: 4px;
+  border: 1px solid #e2e0e6;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 14px;
+  padding-left: 2px;
+}
+
+th {
+  color: #bcbcbc;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+td:nth-child(2n + 1) {
+  border-top: 1px solid #ccc;
+}
+
+td:nth-child(2n) {
+  border-top: 1px solid #ccc;
 }
 
 input:focus {
@@ -70,6 +98,27 @@ input {
   margin-top: 25px;
 }
 
+.pt-1 {
+  padding-top: 4px;
+}
+
+.pt-2 {
+  padding-top: 8px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.border-0 {
+  border: none;
+}
+
+.border-0:focus {
+  outline: none;
+  border: none;
 }

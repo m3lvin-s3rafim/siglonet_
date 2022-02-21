@@ -4,6 +4,7 @@ import { BsFillCalendarCheckFill } from "react-icons/bs";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { BiHash } from "react-icons/bi";
 import { ImSigma } from "react-icons/im";
+import { randomDate, randomQuantity } from "../utils/utils";
 
 const ItemsOrderForm = () => {
   return (
@@ -11,7 +12,7 @@ const ItemsOrderForm = () => {
       <div className="inventory-container">
         <div className="inventory-container-items">
           <span className="items-date">Date created</span>
-          <span className="items-value pt-2">DD/MM/YYYY</span>
+          <span className="items-value pt-2">{randomDate()}</span>
         </div>
 
         <span className="items-date">
@@ -33,7 +34,7 @@ const ItemsOrderForm = () => {
       <div className="inventory-container">
         <div className="inventory-container-items">
           <span className="items-date">Order note no.</span>
-          <span className="items-value pt-2">01292</span>
+          <span className="items-value pt-2">{randomQuantity() * 1001}</span>
         </div>
 
         <span className="items-date">
@@ -44,7 +45,7 @@ const ItemsOrderForm = () => {
       <div className="inventory-container">
         <div className="inventory-container-items">
           <span className="items-date">Quantity</span>
-          <span className="items-value pt-2">4</span>
+          <span className="items-value pt-2">{randomQuantity()}</span>
         </div>
 
         <span className="items-date">
